@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Roboto:ital,wght@0,400;1,400;1,900&display=swap');
 
-div {
-  box-sizing: border-box;
+html {
+  background-color: black;
+}
+
+h2, h4, h1, p {
+  color: #FFFFFF;''
+}
+
+#group1 {
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d
 }
 
 .huvudcontainer {
@@ -16,25 +26,31 @@ div {
 }
 
 .bakgrund {
-  transform: translateZ(-1px) scale(2);
+  position: fixed;
+  height: 500px;
+  width: 100%;
+  background-image: url(https://townsquare.media/site/812/files/2020/05/juice-wrld.jpg?w=1200);
+  background-size: cover;
+  padding-top: 100px;
+}
+.framgrund {
+  position: absolute;
+  top: 500px;
   height: 100%;
   width: 100%;
-  position: relative;
-  top: calc(400px - 50vh);
-  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reviewjournal.com%2Fentertainment%2Fentertainment-columns%2Fkats%2Frap-star-juice-wrld-frequent-las-vegas-headliner-dies-at-21-1909729%2F&psig=AOvVaw3GJlIznvG60CUc1DHGY1a3&ust=1601669102517000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiOjMSYlOwCFQAAAAAdAAAAABAU");
-  padding-top: 100px; 
+  background: #fff;
+  padding-top: 0px;
 }
-
 .container {
-  margin-top:40px
+  margin-top:470px
 }
 
  .huvudtitel {
   font-weight: bold;
   font-size: 80px;
   font-family: 'Oswald', sans-serif;
-  color: white
-  
+  color: black;
+
 }
 
 .sidtitel {
@@ -46,6 +62,6 @@ div {
 }
 
 .albumfoto {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 3%;
 }
