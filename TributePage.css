@@ -21,11 +21,12 @@ h2, h4, h1, p {
   right: 0;
   bottom: 0;
   perspective: 2px;
-  overflow-x: hidden;
+  overflow-x: scroll;
   overflow-y: scroll;
 }
 
 .bakgrund {
+  display: table;
   position: fixed;
   height: 500px;
   width: 100%;
@@ -35,16 +36,26 @@ h2, h4, h1, p {
 }
 .framgrund {
   position: absolute;
-  top: 500px;
+  top: 630px;
   height: 100%;
   width: 100%;
-  background: #fff;
-  padding-top: 0px;
+  background: #958F8F;
+  padding: 30px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 8px;
 }
 .container {
   margin-top:470px
-}
 
+}
+.innehalltext {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+
+
+}
  .huvudtitel {
   font-weight: bold;
   font-size: 80px;
@@ -62,6 +73,7 @@ h2, h4, h1, p {
 }
 
 .albumfoto {
-  border: 2px solid black;
+  border: 2px solid black ;
   border-radius: 3%;
+  padding-top: 40px;
 }
