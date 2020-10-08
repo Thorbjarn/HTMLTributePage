@@ -2,6 +2,8 @@
 
 html {
   background-color: black;
+  overflow-y: scroll; 
+  position: absolute; 
 }
 
 h2, h4, h1, p {
@@ -21,8 +23,6 @@ h2, h4, h1, p {
   right: 0;
   bottom: 0;
   perspective: 2px;
-  overflow-x: scroll;
-  overflow-y: scroll;
 }
 
 .bakgrund {
@@ -41,8 +41,6 @@ h2, h4, h1, p {
   width: 100%;
   background: #958F8F;
   padding: 30px;
-  overflow-x: hidden;
-  overflow-y: scroll;
   margin: 8px;
 }
 .container {
