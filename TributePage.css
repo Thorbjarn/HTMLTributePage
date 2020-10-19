@@ -7,11 +7,11 @@ html {
 }
 
 
-h2, h4, h1, p {
+h2, h1, h4, p {
   color: #FFFFFF;
 }
 
-#group1 {
+#grupp1 {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
@@ -91,7 +91,7 @@ h2, h4, h1, p {
 }
 
 #albums {
-  top: 775px;
+  top: 790px;
   position: relative;
   background: #958F8F;
   margin: 5px;
@@ -99,4 +99,3 @@ h2, h4, h1, p {
   border-radius: 2%;
   padding: 15px;
 }
-
