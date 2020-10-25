@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Roboto:ital,wght@0,400;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Roboto:ital,wght@0,400;1,400;1,900&display=swap');  /* Det här ger mig tillgång till att använda speciella fonts för mina texter */
 
 html {
-  background-color: black;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  background-color: black; /* Ger hela HTML hemsidan svart backgrund*/
+  overflow-y: scroll;  /* Det här gör att jag kan scrolla på hela hemsidan på y-axeln*/
+  overflow-x: hidden; 
 }
 
 
 h2, h1, h4, p {
-  color: #FFFFFF;
+  color: #FFFFFF; /* Ger följande klasser/grupper vitfärg */
 }
 
 #grupp1 {
@@ -50,14 +50,14 @@ h2, h1, h4, p {
 
 }
 
-.innehalltext {
+.innehalltext { /* Vart titlarna ska sitta och vilken typ av position dem har i jämfört med andra klasser/grupper */
   position: absolute;
   left: 1000px;
   top: 130px;
 
 
 }
- .huvudtitel {
+ .huvudtitel { /* Ger huvudtiteln den färg, storlekt och typ på hemsidan */
   font-weight: bold;
   font-size: 80px;
   font-family: 'Oswald', sans-serif;
@@ -65,7 +65,7 @@ h2, h1, h4, p {
 
 }
 
-.sidtitel {
+.sidtitel { /*Ger sidtiteln för egenskaper som storlek, rum mellan tecken och färg */
   font-weight: 200;
   font-size: 20px;
   letter-spacing: 8px;
@@ -76,11 +76,11 @@ h2, h1, h4, p {
 .albumfoto {
   margin: 10px;
   padding: 15px;
-  flex-wrap: nowrap;
-  display: flex;
+  flex-wrap: nowrap; /* Gör så att elementen radas upp efter varandra utan att jag behöver fixa positionen för det */
+  display: flex; /*ger tillgång till flexbox */
   text-align: center;
   font-size: 17px;
-  flex-direction: row;
+  flex-direction: row; /*Avgör hur elementen kommer radas upp */
 
 }
 
