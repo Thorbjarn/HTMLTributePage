@@ -14,37 +14,35 @@ h2, h1, h4, p {
 #grupp1 {
   height: 100%;
   position: relative;
-  transform-style: preserve-3d;
 
 }
 
-.huvudcontainer {
+.huvudcontainer { /* Ger position och hur bakgrunden och dem diven som finns under "Huvudcontainer" ska sitta och deras relation till varandra*/
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  perspective: 2px;
+  bottom: 0; /* Gör att den sitter centrerat i html */
 
 }
 
-.bakgrund {
-  position: absolute;
-  height: 65%;
+.bakgrund { /* Förklara vad klassen bakgrund ska göra och dess relation */
+  position: absolute; /* Gör att bilden du har valt kommer att ta den plats du har gett den utan att den blir klippt ifrån på grund av andra element. */
+  height: 65%; 
   width: 98%;
-  background-image: url(https://townsquare.media/site/812/files/2020/05/juice-wrld.jpg?w=1200);
-  background-size: auto;
-  border-style: solid black;
-  border-radius: 2%;
-  padding-top: 100px;
-  margin: 5px;
+  background-image: url(https://townsquare.media/site/812/files/2020/05/juice-wrld.jpg?w=1200); /* Bakgrundsbilden */
+  background-size: auto; /* Gör så att bilden själv anpassar sig till din skärmstorlek och hur många pixlar som finns, dock kan det se olika ut t.ex. på en 1920x1080p så kan man se att bilden blir repeatad. */
+  border-style: solid black; /* Ger en border på elementet som är solid och svart */
+  border-radius: 2%; /* Ger borden en kurva på 2% */
+  padding-top: 100px; /* Ger ett avstånd från bordern och ditt content i elementet */
+  margin: 5px; /* Skappar ett mellan rum med andra element */
 
 }
-.framgrund {
+.framgrund { /* Ger den gråa bakgrunden och hur den fungerar intill andra element och content inne i det */
   position: relative;
   height: 100%;
   width: 97%;
-  background: #958F8F;
+  background: #958F8F; /* Ger f'rgen */
   padding: 20px;
   margin: 5px;
 
@@ -60,16 +58,16 @@ h2, h1, h4, p {
  .huvudtitel { /* Ger huvudtiteln den färg, storlekt och typ på hemsidan */
   font-weight: bold;
   font-size: 80px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif; /* Betecknar vilket font den ska använda från import delen */
   color: black;
 
 }
 
 .sidtitel { /*Ger sidtiteln för egenskaper som storlek, rum mellan tecken och färg */
-  font-weight: 200;
-  font-size: 20px;
-  letter-spacing: 8px;
-  text-transform: lowercase;
+  font-weight: 200; /* Gör teckna till en viss tjocklek */
+  font-size: 20px; /* Ger teckna en viss storlek */
+  letter-spacing: 8px; /* Ger mellanrum mellan tecken i klassen */
+  text-transform: lowercase; /* Gör att alla tecken blir i lowercase */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -78,19 +76,19 @@ h2, h1, h4, p {
   padding: 15px;
   flex-wrap: nowrap; /* Gör så att elementen radas upp efter varandra utan att jag behöver fixa positionen för det */
   display: flex; /*ger tillgång till flexbox */
-  text-align: center;
+  text-align: center; /* Att all text blir centrerad 
   font-size: 17px;
   flex-direction: row; /*Avgör hur elementen kommer radas upp */
 
 }
 
-#information {
+#information { /* Ger ID:en en position på hemsidan och ger den en border med en kurva*/
   top: 768px;
   border-style: solid black;
   border-radius: 2%;
 }
 
-#albums {
+#albums { /*Ger ID:en en positionstyp och bakgrundsfärg med en border och padding, margin i dess content och vart det ska sitta releterande till andra element */
   top: 790px;
   position: relative;
   background: #958F8F;
