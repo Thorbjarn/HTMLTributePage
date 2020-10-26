@@ -5,52 +5,52 @@
 <link rel="stylesheet" href="tributepage.css"> <!-- Länkar CSS-filen till HTML -->
  </head>
 
-<body>
+<body> <!-- öppnar en body där jag kan lägga in det jag vill ha -->
   <div class="bakgrund"> 
   </div>
-  <div class="huvudcontainer">
-    <div id="grupp1">
-      <div class="innehalltext">
-        <div class="huvudtitel">Juice WRLD</div>
-        <div class="sidtitel">999 Forever</div>
+  <div class="huvudcontainer"> <!-- gör allt nedanstående centrerat, egentligen behövs den inte och kan läggas in med t.ex. ID: grupp1, Ser till att titlarna inte tar över bakgrunden -->
+    <div id="grupp1"> <-- Ser till att titlarna inte tar över bakgrunden och tar den plats den har blivet tillgiven -->
+      <div class="innehalltext"> <!-- Ser till vart resterande divs ska sitta någonstans på hemsidan -->
+        <div class="huvudtitel">Juice WRLD</div> <!-- Ger "Juice WRLD" den funktion det ska som är beskrivet i CSS-filen -->
+        <div class="sidtitel">999 Forever</div> <!-- Samma som ovan fast med "999 Forever" -->
       </div>
 </div>
 </div>
-      <div id="information" class="framgrund">
+      <div id="information" class="framgrund"> <!-- Öppnar diven för att lägga till den information jag vill förmedla till läsaren och följuer det som är skrivet i CSS -filen -->
       <h4>Om Juice WRLD</h4>
        <div>
         <p> <strong> Juice WRLDs </strong> riktiga namn är <strong> Jarad Anthony Higgins </strong> och föddes 2:a December, 1998. Han växte i Chicago, Illinois, där han började på sin karriär inom rap och som låtskrivare. Han skulle senare explodera upp i 2018 med hans två låtar "Lucid Dreams" och "All Girls Are The Same" som han släppte senare med i sitt studioalbum, "Goodby & Good Riddance" som kom ut senare i 2018. Albumet gick platinum och han skrev på ett kontrakt med "Recording Industry Association of America" (RIAA). Han stannade med de tills hans död sent 2019. Han släppte även ett collabalbum med Future, "Wrld on Drugs", 2018. År 2019 så släppte han sitt andra studioalbum, "Death Race for Love", där hit-låtar som "Robbery", "Hear Me Calling" och "Empty" var med på albumet. </p>
         <p> Tyvärr så gick Juice WRLD bort den 8:e December 2019, på en flygplats påväg hem till Chicago eftar att ha nyligen fyllt 21 år. Där svalde han flera antal droger för att slippa att bli tagen av polis, där en av de par drogen han svalde var den kända rapdrogen codeine som har starka effekter vid överdosning som kan leda till dödolyckor. Sommarn 2020 så släppte dem ett hyllnigsalbum för Juice WRLD, "Legends Never Die", för att hylla ett av hans tidigare låtar där han rappade om hur alla han känner och ser upp till dör av olika anledningar. Det ryktas om att han har över 2000 osläppta låtar som de ska släppas ut med ett lagom utrymme efter varandra, enligt RIAA. </p>
-        <p> <small> Läs mer om hans liv och död på hans <a href="https://en.wikipedia.org/wiki/Juice_Wrld" target="_blank">Wikipedia</small></a></pa>
+        <p> <small> Läs mer om hans liv och död på hans <a href="https://en.wikipedia.org/wiki/Juice_Wrld" target="_blank">Wikipedia</small></a></pa> <!-- länkat en wikipedia som öppnas I en ny hemsida -->
        </div>
-    </div>
-</div>
+    </div> <!-- Stänger diven för jag vill ha seperata delar av gråa delar och gör så att den inte fyller i resten av divens med grå färg eller tills den max i CSS-filen på hemsidan -->
+</div> 
 
-<div id="albums">
-  <h1>Albums</h1>
- <div class="albumfoto">
+<div id="albums"> <!-- öppnar bakgrunden som har färg och dess andra egenskaper  -->
+  <h1>Albums</h1> <!-- Lägger den utan för albumfoto för att den ska inte vara en del av flexbox elementet -->
+ <div class="albumfoto"> <!-- Öppnar diven med flexbox och ger alla nedanstående h4 flexboxen egenskapen -->
 
 
-   <div class="goodbyeandgoodriddance">
+   <div class="goodbyeandgoodriddance"> <!-- Strunta i, kvar grejer från när jag försökte fixa med titlarna och deras egna flexbox element -->
     <h4><strong>Goodbye & Good Riddance</Strong></h4>
     </div>
-      <a href="https://en.wikipedia.org/wiki/Goodbye_%26_Good_Riddance" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/8/86/Goodbye_%26_Good_Riddance_Album_Cover.jpg" alt="Bilden kunde inte laddas." > </a>
+      <a href="https://en.wikipedia.org/wiki/Goodbye_%26_Good_Riddance" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/8/86/Goodbye_%26_Good_Riddance_Album_Cover.jpg" alt="Bilden kunde inte laddas." > </a> <!-- Gör att en bild visas upp med albumfotot och är klickbar med en länkad wikipedia om albbumet som öppnas i en ny flik. -->
 
 
 
       <h4><strong>WRLD on Drugs</strong></h4>
-      <a href="https://en.wikipedia.org/wiki/Wrld_on_Drugs" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wrld_on_Drugs.jpg" alt="Bilden kunde inte laddas" > </a>
+      <a href="https://en.wikipedia.org/wiki/Wrld_on_Drugs" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wrld_on_Drugs.jpg" alt="Bilden kunde inte laddas" > </a> <!-- Samma som första albumet och på de två nederstående albumen också -->
 
 
 
       <h4><strong>Death Race for Love</strong></h4>
-      <a href="https://en.wikipedia.org/wiki/Death_Race_for_Love" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/0/04/Juice_Wrld_-_Death_Race_for_Love.png" alt="Bilden kunde inte laddas" > </a>
+      <a href="https://en.wikipedia.org/wiki/Death_Race_for_Love" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/0/04/Juice_Wrld_-_Death_Race_for_Love.png" alt="Bilden kunde inte laddas" > </a> 
 
 
 
       <h4><strong>Legends Never Die</strong></h4>
       <a href="https://en.wikipedia.org/wiki/Legends_Never_Die_(Juice_Wrld_album)" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/f/f6/Juice_Wrld_-_Legends_Never_Die.png" alt="Bilden kunde inte laddas" > </a>
-    </div>
-  </div>
-   </body>
-   </html>
+    </div> <!-- Stänger diven med flexbox element -->
+  </div> <!-- Stänger div id "albums vilket har den gråa bakgrunden -->
+   </body> <!-- stänger bodyn -->
+   </html> <!-- avslutar HTML -->
